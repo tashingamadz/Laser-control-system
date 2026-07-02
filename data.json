@@ -1,0 +1,26 @@
+{
+	"company":"ELODIZ LTD",
+	"nchannel": "3",
+	"channel_1": "785",
+	"channel_2": "532",
+	"channel_3": "1050",
+	"serial_number": "ABC123",
+	"error_display": "error message",
+	"errors" : {
+		"ERR_0": "no errors",
+		"ERR_1": "interlock engage",
+		"ERR_2": "laser key disabled",
+		"ERR_3": "laser not initialized",
+		"ERR_4": "spectrometer not initialized",
+		"ERR_5": "unit under power",
+		"ERR_6": "temperature warning"},
+	"information" : "Channel in operation",
+	"command_errors": {
+		"PWON" : ["ERR_1", "ERR_5", "ERR_0"],
+		"PWOF" : ["ERR_2", "ERR_3", "ERR_0"],
+		"ASEC" : ["ERR_4", "ERR_0","ERR_5"],
+		"ASEQ" : ["ERR_6", "ERR_0", "ERR_5"],
+		"ABKG" : ["ERR_5","ERR_0"],
+		"CNAC" : ["ERR_0","ERR_5"]
+		}
+	}
